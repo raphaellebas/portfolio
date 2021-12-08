@@ -11,7 +11,7 @@
     <title>Portfolio Raphael</title>
 </head>
 <body>
-    <nav class="navbar" style="border-bottom: 1px solid black;">
+    <nav class="navbar">
         <ul> 
                 <li >A propos de moi</li>
                 <li >Compétences</li>
@@ -19,10 +19,11 @@
                 <li >Projets</li>
         </ul>
     </nav>
-<h1 class="title">Développeur Intégrateur </h1>
+<h1 class="category-welcome">Développeur Intégrateur </h1>
     <img src="https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/background.jpg?raw=true" alt="background" >
     <img src="https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/welcome.jpg?raw=true" alt="photo-welcome" >
-    <h1>A propos de moi</h1>
+
+    <h1 class="category-about-me">A propos de moi</h1>
     <img src="https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/photo-linkedin.jpg?raw=true" alt="photo-linkedin" >
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -38,9 +39,9 @@
     <li>Animaux</li>
 </ul>
 
-<h1 class="title">Compétences</h1>
+<h1 class="category-skills">Compétences</h1>
 <ul>
-    <li>Front-end<img src="/assets/img/front-end.jpg" alt="front-end">
+    <li>Front-end<img class="img-category" src="/assets/img/front-end.jpg" alt="front-end">
         <p>Création et intégration de sites web et applications mobiles responsive, accessibles.</p>
         <ul>
         <li>HTML5</li>
@@ -49,7 +50,7 @@
         <li>Angular</li>
         <li>Bootstrap</li>
     </ul></li>
-    <li>Back-end<img src="/assets/img/back-end.png">
+    <li>Back-end<img class="img-category" src="/assets/img/back-end.png">
     <p>Développement de sites web création et gestion de bases de données.</p>
     <ul>
         <li>PHP7</li>
@@ -57,7 +58,7 @@
         <li>Client SSH</li>
         <li>Connexion FTP</li>
     </ul></li>
-    <li>WorkSpace<img src="/assets/img/coffee-cup.png" alt="workspace">
+    <li>WorkSpace<img class="img-category" src="/assets/img/coffee-cup.png" alt="workspace">
     <ul>
         <li><i class="fas fa-desktop"></i>Système d'Exploitation: Windows 10, Linux Ubuntu, Kali.</li>
         <li></li>
@@ -68,6 +69,51 @@
         <li></li>
     </ul></li>
 </ul>
+<h1 class="category-time">Chronologie</h1>
+<img src="/assets/img/simplon.png" alt="simplon">
+<p>2021</p>
+<h2>Simplon</h2>
+<h3>Développeur intégrateur d'applications Web</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
+with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<img src="/assets/img/simplon.png" alt="simplon">
+<p>2020</p>
+<h2>Simplon</h2>
+<h3>Apple Foundation Program</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
+with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<h1 class="category-projects">Projets</h1>
+<img src="/assets/img/endawn.png" alt="endawn">
+<h2>Endawn</h2>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
+    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+    <img src="/assets/img/noxalis.png" alt="noxalis">
+    <h2>Noxalis</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
+        with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<h1 class="category-contact-me">Contacter moi</h1>
+<form action="/action-page.php">
+    <label for="fname">Prénom*</label>
+    <input type="text" id="fname" name="fname">
+    <label for="lname">Nom*</label>
+    <input type="text" id="lname" name="lname">
+    <label for="object">Objet*</label>
+    <input type="text" id="obect" name="object">
+    <label for="message">Message*</label>
+    <input type="text" id="message" name="message">
+    <input type="submit" value="Envoyer le message">
+</form>
+<div class="tabbar">
+    <p>© 2021 Lua</p>
+    <a href="https://www.linkedin.com/in/raphaël-lebas/"><img src="/assets/img/linkedin.png" alt="Le logo linkedin"></a>
+    <a href=""><img src="/assets/img/github.png" alt="Le logo github"></a>
+    <img src="/assets/img/discord.png" alt="Le logo discord">
+    <img src="/assets/img/reddit.png" alt="le logo reddit">
+    <img src="/assets/img/twitter.png" alt="le lgoo twitter">
+</div>
 <!--<script src="https://kit.fontawesome.com/1e389db848.js" crossorigin="anonymous"></script>-->
 </body>
 </html>
