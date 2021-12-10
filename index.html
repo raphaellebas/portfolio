@@ -95,13 +95,13 @@ with the release of Letraset sheets containing Lorem Ipsum passages, and more re
 <h1 class="category-contact-me">Contacter moi</h1>
 <form action="/action-page.php">
     <label for="fname">Prénom*</label>
-    <input type="text" id="fname" name="fname" pattern="[a-zA-ZÀ-ÿ].{2,}" title="Veuillez mettre au moins 3 caractères ou plus seulement les lettres sont autorisées" placeholder="Prénom" required>
+    <input type="text" id="fname" name="fname" pattern="[a-zA-ZÀ-ÿ]{3,25}" title="Veuillez mettre au moins 3 caractères ou plus seulement les lettres sont autorisées" placeholder="Prénom" required>
     <label for="lname">Nom*</label>
-    <input type="text" id="lname" name="lname" pattern="[a-zA-ZÀ-ÿ].{2,}" title="Veuillez mettre au moins 3 caractères ou plus seulement les lettres sont autorisées" placeholder="Nom" required>
+    <input type="text" id="lname" name="lname" pattern="[a-zA-ZÀ-ÿ]{3,25}" title="Veuillez mettre au moins 3 caractères ou plus seulement les lettres sont autorisées" placeholder="Nom" required>
     <label for="object">Objet*</label>
-    <input type="text" id="object" name="object" pattern="[a-zA-ZÀ-ÿ].{2,}" title="Veuillez mettre au moins 3 caractères ou plus seulement les lettres sont autorisées" required>
+    <input type="text" id="object" name="object" pattern="[a-zA-ZÀ-ÿ0-9]{3,80}" title="Veuillez mettre au moins 3 caractères ou plus seulement les lettres sont autorisées" required>
     <label for="message">Message*</label>
-    <input type="text" id="message" name="message" pattern="[a-zA-ZÀ-ÿ].{2,}" title="Veuillez mettre au moins 3 caractères ou plus seulement les lettres sont autorisées" required>
+    <input type="text" id="message" name="message" pattern="[a-zA-ZÀ-ÿ0-9]{3,1000}" title="Veuillez mettre au moins 3 caractères ou plus seulement les lettres sont autorisées" required>
     <input type="submit" value="Envoyer le message">
 </form>
 <div class="tabbar">
