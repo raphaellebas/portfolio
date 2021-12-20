@@ -6,24 +6,29 @@
     <meta name="keywords" content="CV, Portfolio">
     <meta name="author" content="Raphaël lebas">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/favicon-32x32.png?raw=true">
     <title>Portfolio Raphael</title>
 </head>
 <body>
-    <nav>
+    <nav id="nav" class="navimation">
         <ul> 
-                <li><a>A propos de moi</a></li>
-                <li><a>Compétences</a></li>
-                <li><a>Chronologie</a></li>
-                <li><a>Projets</a></li>
+                <li><a href="#about-me">A PROPOS DE MOI</a></li>
+                <li><a href="#skills">COMPÉTENCES</a></li>
+                <li><a href="#time">CHRONOLOGIE</a></li>
+                <li><a href="#projects">PROJETS</a></li>
         </ul>
     </nav>
-<h1 class="category-welcome">Développeur Intégrateur </h1>
-    <img src="https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/background.jpg?raw=true" alt="background" >
-    <img src="https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/welcome-page.jpg?raw=true" alt="photo-welcome" >
+<div>
+    
+</div>
+<div class="div-welcome">
+    <img class="background" src="https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/background.jpg?raw=true" alt="background" >
+    <header  class="work">Développeur Intégrateur Web </header>
+</div>
 
-    <h1 class="category-about-me">A propos de moi</h1>
+<div class="black-container">
+    <h1 id="about-me">A propos de moi</h1>
     <img src="https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/linkedin-photo.jpg?raw=true" alt="photo-linkedin" >
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -38,8 +43,8 @@
     <li>Gastronomie</li>
     <li>Animaux</li>
 </ul>
-
-<h1 class="category-skills">Compétences</h1>
+</div>
+<h1 id="skills">Compétences</h1>
 <ul>
     <li>Front-end<img class="img-category" src="https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/front-end.jpg?raw=true" alt="Logo front-end">
         <p>Création et intégration de sites web et applications mobiles responsive, accessibles.</p>
@@ -67,7 +72,7 @@
         <li><i class="fas fa-globe-europe"> Langues: Anglais B2, Espagnol A2</i></li>
     </ul></li>
 </ul>
-<h1 class="category-time">Chronologie</h1>
+<h1 id="time">Chronologie</h1>
 <img src="https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/simplon.png?raw=true" alt="simplon">
 <p>2021</p>
 <h2>Simplon</h2>
@@ -81,7 +86,7 @@ with the release of Letraset sheets containing Lorem Ipsum passages, and more re
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-<h1 class="category-projects">Projets</h1>
+<h1 id="projects">Projets</h1>
 <img src="https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/endawn.png?raw=true" alt="endawn">
 <h2>Endawn</h2>
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
@@ -92,7 +97,7 @@ with the release of Letraset sheets containing Lorem Ipsum passages, and more re
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
         with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-<h1 class="category-contact-me">Contacter moi</h1>
+<h1 id="category-contact-me">Contacter moi</h1>
 <form action="/action-page.php">
     <label for="fname">Prénom*</label>
     <input type="text" id="fname" name="fname" pattern="[a-zA-ZÀ-ÿ]{3,25}" title="Veuillez mettre au moins 3 caractères ou plus seulement les lettres sont autorisées" placeholder="Prénom" required>
@@ -111,7 +116,7 @@ with the release of Letraset sheets containing Lorem Ipsum passages, and more re
     <a href= "https://discord.com"><img src="https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/discord.png?raw=true" alt="Le logo discord"></a>
     <a href="https://www.reddit.com/user/raphael_lebas"><img src="https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/reddit.png?raw=true" alt="le logo reddit"></a>
     <a href="https://twitter.com/Ram_Lebas"><img src="https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/twitter.png?raw=true" alt="le logo twitter"></a>
-    <img class="lua" src="https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/lua.png?raw=true" alt="Le Logo du site">
+    <a href="#nav"><img class="lua" src="https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/lua.png?raw=true" alt="Le Logo du site"></a>
 </div>
 <script src="https://kit.fontawesome.com/1e389db848.js" crossorigin="anonymous"></script>
 </body>
