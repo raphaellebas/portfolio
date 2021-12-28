@@ -70,8 +70,9 @@ nav.navimation ul li a:hover::after {
     width: 100%;
 }
 
+/* Welcome part*/
 .img-main{
-    background: url('https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/background-portfolio.jpg?raw=true') fixed no-repeat;
+    background: url('https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/lua-background.jpg?raw=true') fixed no-repeat;
     display: flex;
     object-fit: cover;
     background-size: cover;
@@ -84,13 +85,18 @@ nav.navimation ul li a:hover::after {
     margin-left: 5vw;
 }
 
-.img-main h1{
-    margin-left: 10%;
+.img-main h1 p{
+    margin-left: 5%;
 }
 .img-main hr{
     width: 50%;
 }
 
+/* About me part*/
+.img-picture{
+    background: url('https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/linkedin-photo.jpg?raw=true') no-repeat;
+    height: 100vh;
+}
 .work{
     justify-content: flex-start;
 }
