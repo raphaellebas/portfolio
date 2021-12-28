@@ -1,7 +1,12 @@
 body{
     background-color: rgb(19, 19, 19);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: white;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 nav{
     background-color: rgba(51, 51, 51, 0.527);
@@ -62,18 +67,20 @@ nav.navimation ul li a::after {
 nav.navimation ul li a:hover::after {
     width: 100%;
 }
-.background{
-    content: '\A';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background :rgba(0,0,0,0.3);
-    opacity: 1;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
+
+.img-main{
+    background: url('https://github.com/raphaellebas/portfolio/blob/Origin/assets/img/background-portfolio.jpg?raw=true') fixed no-repeat;
+    display: flex;
+    object-fit: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+}
+.img-main .identity{
+    margin-top: 50vh;
+    margin-left: 5vw;
+    color: red;
 }
 
 .work{
